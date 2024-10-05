@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Lab1_DL_Rozanov (2)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Lab1_DL_Rozanov (3)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -15610,7 +15610,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">nn</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">epochs</span><span class="p">)</span>
@@ -15655,6 +15655,9 @@ Epoch: 14; Время работы: 3.482 sec; Ошибка: 0.013696; Точн�
 Epoch: 15; Время работы: 3.662 sec; Ошибка: 0.012153; Точность: 0.997583
 Epoch: 16; Время работы: 3.762 sec; Ошибка: 0.011165; Точность: 0.997917
 Epoch: 17; Время работы: 3.860 sec; Ошибка: 0.010286; Точность: 0.998317
+Epoch: 18; Время работы: 3.528 sec; Ошибка: 0.009358; Точность: 0.998650
+Epoch: 19; Время работы: 3.651 sec; Ошибка: 0.008261; Точность: 0.998883
+Итоговое время обучения: 73.452 sec
 </pre>
 </div>
 </div>
@@ -15674,12 +15677,12 @@ Epoch: 17; Время работы: 3.860 sec; Ошибка: 0.010286; Точн�
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">nn</span><span class="o">.</span><span class="n">test</span><span class="p">(</span><span class="n">x_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span>
@@ -15688,6 +15691,31 @@ Epoch: 17; Время работы: 3.860 sec; Ошибка: 0.010286; Точн�
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Testing has started: ...
+______________________________________________________________________________
+Время работы: 0.08929944038391113 sec; Ошибка = 0.067971; Точность = 0.980200
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
